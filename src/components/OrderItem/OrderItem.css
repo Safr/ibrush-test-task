@@ -1,0 +1,48 @@
+.OrderItem {
+  width: 100px;
+  margin: 10px;
+  padding: 7px;
+  background-color: #fff;
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  border: solid 2px #41403E;
+  cursor: pointer;
+  transform: translateY(0);
+  transition: all .3s ease;
+}
+
+.OrderItem:hover,
+.OrderItem:active {
+  transform: translateY(3px);
+  border:solid 1px #41403E;
+}
+
+span.Up::before {
+  content: '';
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-right: 2px;
+  border-style: solid;
+  border-width: 0 7px 12px 7px;
+  border-color: transparent transparent #57cc1d transparent;
+}
+
+span.Down {
+  content: '';
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-right: 2px;
+  border-style: solid;
+  border-width: 0 7px 12px 7px;
+  border-color: transparent transparent #f56151 transparent;
+}
+
+
+p.Up {
+  color: #57cc1d;
+}
+
+p.Down::before {
+  color: #f56151;
+}

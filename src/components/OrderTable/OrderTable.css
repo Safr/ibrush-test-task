@@ -1,0 +1,62 @@
+.TableWrapper {
+  height: 100px;
+  margin-top: 22px;
+  overflow-y: scroll;
+}
+
+.TableWrapper::-webkit-scrollbar {
+  width: 16px;
+}
+
+/* Track */
+.TableWrapper::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #41403e; 
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: #bbe5f1; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.TableWrapper::-webkit-scrollbar-thumb:hover {
+  background-color: #67c5df; 
+}
+
+.Table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.Table thead th {
+  position: sticky;
+  top: 0;
+  padding-bottom: 12px;
+  line-height: 1;
+  background-color: #fff;
+}
+
+.Table tr:hover {
+  background-color: #eaeaea;
+}
+
+
+.Table tbody,
+  tr,
+  th,
+  td {
+    padding: 0;
+    text-align: left;
+    white-space: normal;
+}
+
+@media screen and (max-width: 768px) {
+  .Table tbody,
+    tr,
+    th,
+    td {
+      text-align: center;
+  }
+}

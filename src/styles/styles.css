@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand+SC');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-width: 320px;
+  height: 100%;
+  font-family: 'Patrick Hand SC';
+  background-color: rgb(234, 234, 234);
+}
+
+p {
+  margin-bottom: 5px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  margin: 0;
+  list-style-type: none;
+}

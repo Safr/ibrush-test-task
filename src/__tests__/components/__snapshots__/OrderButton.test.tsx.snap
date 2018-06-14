@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OrderButton Component should render correctly 1`] = `
+<button
+  onClick={[MockFunction]}
+>
+  Взять ордеры
+</button>
+`;

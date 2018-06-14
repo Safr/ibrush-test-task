@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OrdersList Component should render correctly 1`] = `
+<ul>
+  <OrderItem
+    changedPrice=""
+    key="currentOrder"
+    onOpenPopup={[Function]}
+    order={
+      Object {
+        "BTC_USD": Object {
+          "avg": "6875.86448007",
+          "buy_price": "6859.227881",
+          "high": "6969.54201841",
+          "last_trade": "6864.01",
+          "low": "6800",
+          "sell_price": "6873.71642794",
+          "updated": 1528752429,
+          "vol": "1112.01492053",
+          "vol_curr": "7632881.53471028",
+        },
+      }
+    }
+    orderName="currentOrder"
+  />
+</ul>
+`;
